@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Responsive Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Responsive Landing Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="https://prodigyinfotech.dev/#:~:text=Transforming%20the%20Way%20People%20Learn&text=If%20you're%20looking%20for,a%20better%20future%20for%20all.">About</a></li>
+                <li><a href="https://prodigyinfotech.dev/verify">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Prodigy InfoTech</h1>
+            <button>
+                <a href=
+"https://prodigyinfotech.dev/">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"about-image.svg"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span style="text-align: center;color: rgb(14, 53, 230);" >Our Internships
+                    <h5 style="font-size: small;color: rgb(72, 72, 71);">(Click To Apply)</h5>
+                </span>
+            </div>
+            <div class="boxes">
+                <div class="box" style="color: rgb(69, 70, 73);">
+                    <div class="topic" >
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_z_gyKbiEwAp1MCgKG2NZR9dm8Y3RZIKwWlaG9P4fECzNAw/viewform" target="_blank" style="color: rgb(15, 61, 227);" title="Click To Apply">
+                            <b>Software Development Internship</b>
+                        </a>
+                    </div>
+                    <p style="text-align: center;">
+                       <br><br> Overview <br>
+<br>Life Cycle <br>
+<br>CLI Apps <br>
+<br>GUI Apps <br>
+<br>Web Scraping <br>
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_z_gyKbiEwAp1MCgKG2NZR9dm8Y3RZIKwWlaG9P4fECzNAw/viewform" target="_blank" style="color: rgb(20, 57, 224);" title="CLick To Apply">
+                            <b>Webpage Development Internship</b>
+                        </a>
+                    </div>
+                    <p style="color: rgb(69, 75, 73);">
+                        <br><br>Overview<br>
+<br>HTML5 & CSS3<br>
+<br>Javascript<br>
+<br>Responsive Website<br>
+<br>Web Applications<br>
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_z_gyKbiEwAp1MCgKG2NZR9dm8Y3RZIKwWlaG9P4fECzNAw/viewform" target="_blank" title="Click To Apply" style="color: rgb(18, 73, 226);">
+                            <b>Android Development Internship</b>
+                        </a>
+                    </div>
+                    <p style="color: rgb(69, 75, 73);">
+                       <br><br> Overview <br>
+<br> Kotlin/Flutter/React Native <br>
+<br> Simple Apps <br>
+<br> Advanced Apps <br>
+<br> Cloud Apps <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            Address: Gandhi Nagar, <br>Upper Worli, Worli, <br>Mumbai - 400018
+                        </div>
+                        <div class="title1">
+                            <span>Prodigy Infotech</span>
+                        </div>
+                        <div class="content1">
+                            An EdTech Startup built by a team of passionate educators and entrepreneurs who are committed to transforming the way people learn and grow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By Surya Chakaravarthi for
+                <a href="https://prodigyinfotech.dev/" 
+                    target="_blank">
+                    Prodigy Infotech
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
